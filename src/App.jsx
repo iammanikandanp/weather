@@ -130,7 +130,7 @@ if(e.key==="Enter"){
      {notfound&& <div className="city-not-found">City Not Found</div>}
 {!loading&&!notfound&&<WeatherDeatails icon={icon} temp={temp} city={city} country={country} alt={alt} log={log} hum={hum} winds={winds} />
 }
-      <p className="copyright">Designed by <span> <a href="https://manikandan-portfolio-2tb8.onrender.com/">Manikandan</a></span></p>
+      <p className="copyright">Designed by <span> <a href="https://manikandan-portfolio-2tb8.onrender.com/"style={{ textDecoration: "none", color: "blue" }}>Manikandan</a></span></p>
       </div>
     </>
   )
